@@ -1,0 +1,6 @@
+# By not_ryuzaki
+# Group mapping
+voicechat-groups:
+  default: default_muted
+  media: media_muted
+  plus: plus_muted

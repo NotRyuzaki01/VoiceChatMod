@@ -1,0 +1,15 @@
+name: VoiceChatMod
+version: '1.0'
+main: me.not_ryuzaki.voiceChatMod.VoiceChatMod
+api-version: '1.21'
+depend: [LuckPerms]
+commands:
+  vmute:
+    usage: /vmute <player>
+    description: Mute a player by removing voicechat.speak
+  vunmute:
+    usage: /vunmute <player>
+    description: Unmute a player by giving voicechat.speak
+permissions:
+  voicechatmod.use:
+    default: op
